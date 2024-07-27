@@ -1,0 +1,16 @@
+server:
+  port: 2346
+spring:
+  application:
+    name: OneToOne-Relationship-Bidirectional
+  datasource:
+    url: jdbc:postgresql://localhost:5432/one_to_one_bidirect
+    username: postgres
+    password: admin
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
